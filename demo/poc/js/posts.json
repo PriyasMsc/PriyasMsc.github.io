@@ -1,0 +1,42 @@
+ [
+{ 
+"title":"POST ONE", 
+"url":"http://priya.orgfree.com",
+"banner":"../../img/AngularJS.jpg",
+"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+"time":"Tuesday, August 6, 2017" ,
+"author":"Priyanga Subramaniam"
+}, 
+{ 
+"title":"POST TWO", 
+"url":"http://priya.orgfree.com",
+"banner":"../../img/AngularJS.jpg",
+"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+"time":"MONDAY, JULY 29, 2017" ,
+"author":"Priyanga Subramaniam"
+}, 
+{ 
+"title":"POST THREE", 
+"url":"http://priya.orgfree.com",
+"banner":"../../img/AngularJS.jpg",
+"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+"time":"MONDAY, JULY 29, 2017" ,
+"author":"Priyanga Subramaniam"
+}, 
+{ 
+"title":"POST FOUR", 
+"url":"http://priya.orgfree.com",
+"banner":"../../img/AngularJS.jpg",
+"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+"time":"MONDAY, JULY 29, 2017",
+"author":"Priyanga Subramaniam" 
+}, 
+{ 
+"title":"POST FIVE", 
+"url":"http://priya.orgfree.com",
+"banner":"../../img/AngularJS.jpg",
+"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+"time":"MONDAY, JULY 29, 2017",
+"author":"Priyanga Subramaniam"
+}
+]

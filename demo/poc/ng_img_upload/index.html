@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Image Upload Using AngularJs</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="../js/main.js" ></script>
+<link rel='shortcut icon' type='image/x-icon' href='../../img/p.png' />
+<link rel="stylesheet" href="../css/main.css" type="text/css">
+<link rel="stylesheet" href="../../css/bootstrap.css" type="text/css">
+</head>
+<body  ng-app="myApp"  ng-controller="UploadController">
+
+<!-- Adding the ng-app declaration to initialize AngularJS -->
+<div id="main" >
+
+<div class = "row">
+		
+	
+		<h3 class = "text-primary">Simple Image Upload Using AngularJs</h3>
+		<hr style = "border-top:1px dotted #000;"/>
+			<form ng-submit="submit()" name="form" role="form">
+				<div class = "form-inline">	
+					<input ng-model="form.image" class = "form-control" type="file" accept="image/*" onchange="angular.element(this).scope().uploadedFile(this)"  >
+					<button class = "btn btn-primary"><span class = "glyphicon glyphicon-upload"></span> Upload</button>
+					<a href = "result.php" >See All Upload Images</a>
+				</div>	
+				<br/>
+				<center><img ng-src="{{image_source}}" style="width:600px;"></center>
+                <a onClick="javascript:history.go(-1);" href> Back </a>
+			</form>
+		
+	</div>		
+</div>
+</body>
+</html>

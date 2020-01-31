@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Change view using External file</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src="../js/main.js" ></script>
+      <link rel='shortcut icon' type='image/x-icon' href='../../img/p.png' />
+      <link rel="stylesheet" href="../../css/bootstrap.css" type="text/css">
+      <link rel="stylesheet" href="../css/main.css" type="text/css">
+   </head>
+   <body  ng-app="myApp">
+      <div id="main" >
+         <div ng-controller = "ViewChangeController">
+            <div class = "form-inline">
+               <label class = "text-info">Change View:</label>
+               <select class = "form-control" ng-model = "memberView">
+                  <option value = "member_table.html">Table</option>
+                  <option value = "member_list.html">List</option>
+               </select>
+            </div>
+            <br />
+            <div ng-include = "memberView"></div>
+         </div>
+         <a onClick="javascript:history.go(-1);" href> Back </a>  
+      </div>
+   </body>
+</html>

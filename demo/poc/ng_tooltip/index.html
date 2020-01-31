@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Inline Editor in Tool tip </title>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src="../js/main.js" ></script>
+      <link rel="stylesheet" href="../css/main.css" type="text/css">
+      <link rel="stylesheet" href="../../css/bootstrap.css" type="text/css">
+      <link rel='shortcut icon' type='image/x-icon' href='../../img/p.png' />
+   </head>
+   <body  ng-app="myApp">
+      <!-- Adding the ng-app declaration to initialize AngularJS -->
+      <div id="main" >
+         <!-- When this element is clicked, hide the tooltip -->
+         <div id="main_edit"  ng-controller="InlineEditorController" ng-click="hideTooltip()">
+            <!-- This is the tooltip. It is shown only when the showtooltip variable is truthful -->
+            <div class="tooltip" ng-click="$event.stopPropagation()" ng-show="showtooltip">
+               <!-- ng-model binds the contents of the text field with the "value" model.
+                  Any changes to the text field will automatically update the value, and
+                  all other bindings on the page that depend on it.  -->
+               <input type="text" ng-model="value" />
+            </div>
+            <!-- Call a method defined in the InlineEditorController that toggles
+               the showtooltip variable -->
+            <p ng-click="toggleTooltip($event)">{{value}}</p>
+            <br />
+            <a onClick="javascript:history.go(-1);" href> Back </a>  
+         </div>
+      </div>
+   </body>
+</html>
